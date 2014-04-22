@@ -14,7 +14,7 @@ Then change the following fields below to adhere to [NPM package rules](https://
 
 ## NPM Policies
 
- * Update `package.json`: name, version, description, keywords homepage, author, repository, main, licenses.
+ * Update `package.json`: name, version, description, keywords, homepage, author, repository, main, licenses.
 
 [Read more about package.json fields](https://www.npmjs.org/doc/files/package.json.html).
 
