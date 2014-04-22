@@ -42,6 +42,8 @@ Testing is provided by MOCHA.
 
 Either run in bash `$ npm test` or the full command `$ ./node_modules/.bin/mocha --reporter spec`.
 
+![MOCHA TEST](https://raw.githubusercontent.com/sdeering/npm-boilerplate/master/test/npm-boilerplate-test.jpg "MOCHA TEST")
+
 
 ## LICENSE
 
