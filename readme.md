@@ -9,14 +9,14 @@
 2. `$ mv npm-boilerplate <your-npm-package-name>`
 3. `$ cd <your-npm-package-name>`
 
-Then change the following fields below to adhere to [https://www.npmjs.org/doc/misc/npm-developers.html#What-is-a-package](NPM package rules).
+Then change the following fields below to adhere to [NPM package rules](https://www.npmjs.org/doc/misc/npm-developers.html#What-is-a-package).
 
 
 ## NPM Policies
 
  * Update `package.json`: name, version, description, keywords homepage, author, repository, main, licenses.
 
-[https://www.npmjs.org/doc/files/package.json.html](Read more about package.json fields).
+[Read more about package.json fields](https://www.npmjs.org/doc/files/package.json.html).
 
 
 ## Customise
@@ -24,15 +24,15 @@ Then change the following fields below to adhere to [https://www.npmjs.org/doc/m
 Some things you might want to change/update.
 
  * Change Node.js versions for test in `.travis.yml`.
- * Change LICENCE
- * Change README
+ * Change `LICENCE`.
+ * Change `README`.
 
 
 ## Example Usage
 
 ```
-var ModuleName = require('./lib/main'); //or npm package name
-console.log(ModuleName.function1());
+var ModuleName = require('your-npm-package-name'); //or npm package name
+console.log(ModuleName.functionName());
 ```
 
 
