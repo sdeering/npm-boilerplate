@@ -1,0 +1,43 @@
+{
+  "name": "npm-boilerplate",
+  "version": "0.0.1",
+  "description": "A good starting point for your new Node.js NPM packages.",
+  "homepage": "http://github.com/sdeering/npm-boilerplate",
+  "keywords": [
+    "npm-boilerplate",
+    "npm-template",
+    "npm-skeleton"
+  ],
+  "author": "Sam Deering <samdeering@gmail.com>",
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sdeering/npm-boilerplate"
+  },
+  "bugs": {
+    "mail": "samdeering@gmail.com",
+    "url": "http://github.com/sdeering/npm-boilerplate/issues"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "cli-color": "~0.2.3"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.17.0"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com//sdeering/npm-boilerplate/raw/master/LICENSE"
+    }
+  ]
+}
