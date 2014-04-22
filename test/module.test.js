@@ -38,8 +38,8 @@ describe('my module', function( done ) {
     });
 
     it('should run module utils functions', function( done ) {
-        var html = '<div class="my-class">some text &#8211; some junk ãÅ</div>';
-        expect( html ).to.equal( '<div class="my-class">some text &#8211; some junk ãÅ</div>' );
+        var html = MyModule.stripHTML( '<div class="my-class">some junk ãÅäÆ</div>' );
+        expect( html ).to.equal( '<div class="my-class">some junk </div>' );
         done();
     });
 
